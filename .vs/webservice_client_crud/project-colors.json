@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "38e4c9a6-6122-4930-9db9-ca60b3d3325f": {
+      "ProjectGuid": "38e4c9a6-6122-4930-9db9-ca60b3d3325f",
+      "DisplayName": "webservice_client_crud",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

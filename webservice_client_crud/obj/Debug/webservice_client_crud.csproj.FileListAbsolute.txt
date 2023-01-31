@@ -1,0 +1,11 @@
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\bin\Debug\webservice_client_crud.exe.config
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\bin\Debug\webservice_client_crud.exe
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\bin\Debug\webservice_client_crud.pdb
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\obj\Debug\webservice_client_crud.csproj.AssemblyReference.cache
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\obj\Debug\webservice_client_crud.csproj.SuggestedBindingRedirects.cache
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\obj\Debug\webservice_client_crud.Form1.resources
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\obj\Debug\webservice_client_crud.Properties.Resources.resources
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\obj\Debug\webservice_client_crud.csproj.GenerateResource.cache
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\obj\Debug\webservice_client_crud.csproj.CoreCompileInputs.cache
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\obj\Debug\webservice_client_crud.exe
+C:\Users\matti\Documents\GitHub\webservice_client_crud\webservice_client_crud\obj\Debug\webservice_client_crud.pdb
