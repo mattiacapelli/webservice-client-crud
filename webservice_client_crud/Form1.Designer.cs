@@ -38,10 +38,11 @@
             this.txt_id = new System.Windows.Forms.TextBox();
             this.txt_title = new System.Windows.Forms.TextBox();
             this.txt_completed = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_id = new System.Windows.Forms.Label();
+            this.lbl_userId = new System.Windows.Forms.Label();
+            this.lbl_title = new System.Windows.Forms.Label();
+            this.lbl_completed = new System.Windows.Forms.Label();
+            this.lbl_result = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_update
@@ -131,51 +132,63 @@
             this.txt_completed.Size = new System.Drawing.Size(210, 20);
             this.txt_completed.TabIndex = 11;
             // 
-            // label2
+            // lbl_id
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(137, 97);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(15, 13);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "id";
+            this.lbl_id.AutoSize = true;
+            this.lbl_id.Location = new System.Drawing.Point(137, 97);
+            this.lbl_id.Name = "lbl_id";
+            this.lbl_id.Size = new System.Drawing.Size(15, 13);
+            this.lbl_id.TabIndex = 12;
+            this.lbl_id.Text = "id";
             // 
-            // label3
+            // lbl_userId
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(127, 145);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 13);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "userId";
+            this.lbl_userId.AutoSize = true;
+            this.lbl_userId.Location = new System.Drawing.Point(127, 145);
+            this.lbl_userId.Name = "lbl_userId";
+            this.lbl_userId.Size = new System.Drawing.Size(36, 13);
+            this.lbl_userId.TabIndex = 13;
+            this.lbl_userId.Text = "userId";
             // 
-            // label4
+            // lbl_title
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(133, 192);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(23, 13);
-            this.label4.TabIndex = 14;
-            this.label4.Text = "title";
+            this.lbl_title.AutoSize = true;
+            this.lbl_title.Location = new System.Drawing.Point(133, 192);
+            this.lbl_title.Name = "lbl_title";
+            this.lbl_title.Size = new System.Drawing.Size(23, 13);
+            this.lbl_title.TabIndex = 14;
+            this.lbl_title.Text = "title";
             // 
-            // label5
+            // lbl_completed
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(116, 239);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 13);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "completed";
+            this.lbl_completed.AutoSize = true;
+            this.lbl_completed.Location = new System.Drawing.Point(116, 239);
+            this.lbl_completed.Name = "lbl_completed";
+            this.lbl_completed.Size = new System.Drawing.Size(57, 17);
+            this.lbl_completed.TabIndex = 15;
+            this.lbl_completed.Text = "completed";
+            this.lbl_completed.UseCompatibleTextRendering = true;
+            // 
+            // lbl_result
+            // 
+            this.lbl_result.AutoSize = true;
+            this.lbl_result.Location = new System.Drawing.Point(12, 9);
+            this.lbl_result.Name = "lbl_result";
+            this.lbl_result.Size = new System.Drawing.Size(32, 17);
+            this.lbl_result.TabIndex = 16;
+            this.lbl_result.Text = "result";
+            this.lbl_result.UseCompatibleTextRendering = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(293, 450);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbl_result);
+            this.Controls.Add(this.lbl_completed);
+            this.Controls.Add(this.lbl_title);
+            this.Controls.Add(this.lbl_userId);
+            this.Controls.Add(this.lbl_id);
             this.Controls.Add(this.txt_completed);
             this.Controls.Add(this.txt_title);
             this.Controls.Add(this.txt_id);
@@ -188,6 +201,7 @@
             this.Controls.Add(this.btn_update);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -205,10 +219,11 @@
         private System.Windows.Forms.TextBox txt_id;
         private System.Windows.Forms.TextBox txt_title;
         private System.Windows.Forms.TextBox txt_completed;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbl_id;
+        private System.Windows.Forms.Label lbl_userId;
+        private System.Windows.Forms.Label lbl_title;
+        private System.Windows.Forms.Label lbl_completed;
+        private System.Windows.Forms.Label lbl_result;
     }
 }
 
